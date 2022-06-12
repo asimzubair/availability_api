@@ -1,0 +1,44 @@
+{
+	"id": "d6d50f32-e391-ccdd-7843-805a0e23b667",
+	"name": "Availability API",
+	"description": "",
+	"order": [
+		"05a4c021-905d-32c7-9c1e-417decd8701f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1655035955752,
+	"owner": "3118958",
+	"public": false,
+	"requests": [
+		{
+			"id": "05a4c021-905d-32c7-9c1e-417decd8701f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/availability_api/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1655058704385,
+			"name": "Get Availability",
+			"description": "",
+			"collectionId": "d6d50f32-e391-ccdd-7843-805a0e23b667",
+			"responses": [],
+			"rawModeData": "[\r\n\t{\r\n\t\t\"from\":\"2022-05-02T09:00:00\",\r\n\t\t\"to\":\"2022-05-02T17:00:00\",\r\n\t\t\"CC\":\"US\"\r\n\t},\r\n\t{\r\n\t\t\"from\":\"2022-05-02T09:00:00\",\r\n\t\t\"to\":\"2022-05-02T17:00:00\",\r\n\t\t\"CC\":\"MX\"\r\n\t},\r\n\t{\r\n\t\t\"from\":\"2022-05-02T09:00:00\",\r\n\t\t\"to\":\"2022-05-02T17:00:00\",\r\n\t\t\"CC\":\"CO\"\r\n\t}\r\n]"
+		}
+	]
+}
